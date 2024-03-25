@@ -1,0 +1,13 @@
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+        char[] charArray = {'b', 'd', 'a', 'c'};
+        
+        // Sort the char array
+        Arrays.sort(charArray);
+        
+        // Print the sorted array
+        System.out.println("Sorted char array: " + Arrays.toString(charArray));
+    }
+}
